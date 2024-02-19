@@ -13,7 +13,7 @@ Before you begin, you need to install the following software:
 - Node.js
 - npm
 - brew
-- domo.js
+- domo.js (run `brew install DomoApps/ryuu/domo`)
 
 ### Installing
 
