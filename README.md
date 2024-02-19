@@ -20,7 +20,7 @@ Before you begin, you need to install the following software:
 A step-by-step series of examples that tell you how to get a development environment running.
 
 1. Clone the repository
-`git clone https://github.com/yourusername/yourprojectname.git`
+`git clone https://github.com/tristazhang219/domo-smart-table.git`
 2. Navigate to the project directory
 `cd yourprojectname`
 3. Run domo login to connect to your domo instance
