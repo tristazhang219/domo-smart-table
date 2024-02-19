@@ -1,0 +1,49 @@
+{
+  "name": "Smart Table",
+  "version": "1.1.0",
+  "size": {
+    "width": 5,
+    "height": 3
+  },
+  "mapping": [
+    {
+      "dataSetId": "227bbfe1-32dd-4560-9b49-43df20ad0bdd",
+      "alias": "tracker",
+      "fields": []
+    }
+  ],
+  "collections": [
+    {
+      "name": "Audits",
+      "schema": {
+        "columns": [
+            {"name": "userId", "type": "LONG"}, 
+            {"name": "userName", "type": "STRING"},
+            {"name": "userEmail", "type": "STRING"},
+            {"name": "operationType", "type": "STRING"},
+            {"name": "documentId", "type": "STRING"}
+          ]
+        },
+      "syncEnabled": false
+    },
+    {
+      "name": "Trackers",
+      "schema": {
+        "columns": [
+            {"name": "Brand_Name", "type": "STRING"}, 
+            {"name": "Campaign_Name", "type": "STRING"},
+            {"name": "Supplier", "type": "STRING"},
+            {"name": "Placement_Id", "type": "STRING"},
+            {"name": "Client_Placement_Id", "type": "STRING"},
+            {"name": "Scheduled_Launch_Date", "type": "DATETIME"},
+            {"name": "Actual_Launch_Date", "type": "DATETIME"},
+            {"name": "End_Date", "type": "DATETIME"}
+          ]
+        },
+      "syncEnabled": false
+    }
+  ],
+  "fileName": "manifest.json",
+  "id": "4d45fea3-a744-4abd-a26b-36bf9dbde639",
+  "proxy-id": "14d846e9-7292-47bb-8b28-8c576284bad1"
+}
